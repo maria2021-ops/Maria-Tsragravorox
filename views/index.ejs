@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> My Admin Page</title >
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="bestjava.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"></script>
+  </head>
+
+  <body onload="loadExistingData()">
+    <h1 style="border-bottom: double; color: #2F4F4F">My Admin Page</h1>
+    <div>
+      <h2 onclick="togglePhotoData()" style="cursor:pointer; font-family: Gill Sans Extrabold; color: #808000;">My Photo Data</h2>
+      <div id="photoDataContainer">Loading...</div>
+    </div>
+    <div style="clear:left;">
+      <br><hr>
+      <h2 onclick="toggleBookData()" style="cursor:pointer;font-family: Gill Sans Extrabold; color: #F4A460">My Book Data</h2>
+      <div id="bookDataContainer">Loading...</div>
+    </div>
+  </body>
+</html>
+

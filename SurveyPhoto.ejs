@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Maria Yeritsyan</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+<form id="MyForm">
+<div class = "Mariadiv">
+<div style="background-color: white; border-radius: 5px">
+<h1>CSE 120 Favorite Books<br>
+<p1>*Required</p1>
+</divclass>
+</div style><br>
+</Strong> 
+</h1>
+</span>
+  <div class="best">
+  <label for="fname";>Full Name*</label><br>
+  <input type="text" placeholder="Full Name"  name="fname" id="anun" getElementById="anun" onblur="HandleFullNameChange()">
+   <img src="https://www.sba.gov/sites/default/files/2017-04/BGG_Choose_Business_Name_DBA.jpg" id="Maria"><br><br>
+  </div><br>
+
+<div class="best">
+  <label for="lname">Title*</label><br>
+<input type="text" placeholder="Title" id="vernagir" name="vname" getElementById="vernagir" onblur="HandleVernagirChange()"><br><br>
+  </div><br>
+
+<div class="best">
+  <label for="fname">Author*</label><br>
+<input type="text" placeholder="Author" id="grox" name="fname" getElementById="grox" onblur="HandleGroxChange()">
+   <img src="https://st3.depositphotos.com/15648834/17930/v/380/depositphotos_179308460-stock-illustration-unknown-person-silhouette-profile-picture.jpg;" style = "width: 70px;height:80px"><br><br>
+  </div><br>
+
+<div class="best">
+  <label for="fname">Color*</label><br>
+<input type="color" id="guyn" name="guyn" onchange="HandleGuynChange()" >
+    <img src="https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2011/7/18/0/HGTV_Color-Wheel-Full_s4x3.jpg.rend.hgtvcom.616.462.suffix/1400967008479.jpeg"; id="multicolor"><br><br>
+  </div><br>
+
+<div class="best">
+  <label for="fname">Cover Type*</label><br><br>
+<input type="radio" value="paperback" id="paperback" onchange="HandleVorakChange(event)" >
+  <label for="paperback">Paperback</label><br>
+<input type="radio" id="hardcover" name="covertype" value="hardcover" onchange="HandleVorakChange(event)" >
+  <label for="female">Hardcover</label><br>
+<input type="radio" id="other" name="covertype" value="other" onchange="HandleVorakChange(event)" >
+<label for="other">Other</label><input type="text" name="coverurish" id="coverurish" onblur="HandleLavVorakChange()" placeholder="Your Answer">
+   </div><br><br>
+
+<div class="best">
+  <label for="fname">Number of Pages*</label><br>
+<input type="text" placeholder="Number of Pages" name="fname" id="EjiQanak" onblur="HandleEjiQanakChange()" required>
+  <img src="https://pbs.twimg.com/profile_images/1181583065811996673/ylZLdBGL_400x400.jpg" id="number"><br><br>
+  </div><br>
+
+
+<div class="best">
+  <label for="fname">Price</label><br>
+<input type="text" placeholder="Price" name="fname" id="Gin" onblur="HandleGinChange()">
+   <img src="https://www.toplineleadership.com/wp-content/uploads/2013/10/price-tag-241x300.jpg" style="width: 50px;height:60px;"><br><br>
+  </div><br>
+
+<div class="best">
+  <label for="fname">Currency</label><br>
+<input type="text" placeholder="Currency" name="fname" id="Pox" onblur="HandlePoxChange()">
+   <img src="https://s3.amazonaws.com/freestock-prod/450/freestock_569753161.jpg" style="width: 80px;height:90px;"><br><br>
+  </div><br>
+
+<div class="best">
+  <label for="fname">Language*</label><br><br>
+<input type="radio" id="English" name="lezu" value="English" onchange="Handlelanguagechange(event)" required>
+  <label for="English">English</label><br>
+<input type="radio" id="Russian" name="lezu" value="Russian" onchange="Handlelanguagechange(event)" required>
+  <label for="lang">Russian</label><br>
+<input type="radio" id="French" name="lezu" value="French" onchange="Handlelanguagechange(event)">
+  <label for="female">French</label><br>
+<input type="radio" id="Armenian" name="lezu" value="Armenian" onchage="Handlelanguagechange(event)" required>
+  <label for="female">Armenian</label><br>
+<input type="radio" id="urish" name="lezu" value="other" placeholder="Your Answer" onchange="Handlelanguagechange(event)" required>
+  <label for="other">Other</label><input type="text" name="urish_other" id="grel" onblur="Handlegrelchange()" placeholder="Your Answer">
+   </div><br><br>
+
+<div class="best">
+  <label for="fname">Original Language</label>
+  <br><br>
+<input type="radio" id="male" name="gender" value="male" onchange="HandleIskakanLanguageChange(event)">
+  <label for="male">English</label><br>
+<input type="radio" id="female" name="gender" value="female" onchange="HandleIskakanLanguageChange(event)">
+  <label for="female">Russian</label><br>
+<input type="radio" id="female" name="gender" value="female" onchange="HandleIskakanLanguageChange(event)">
+  <label for="female">French</label><br>
+<input type="radio" id="female" name="gender" value="female" onchange="HandleIskakanLanguageChange(event)">
+  <label for="female">Armenian</label><br>
+<input type="radio" id="other" name="gender" value="other" onchange="HandleIskakanLanguageChange(event)">
+ <label for="other">Other</label><input type="text" name="lrivurish_other" id="bnakan" onblur="HandleIskakanLezuChange()" placeholder="Your Answer">
+   </div><br><br>
+
+ <div class="best">
+  <label for="fname">Edition</label><br>
+<input type="text" placeholder="Edition" name="fname" id="Anpetq" onblur="HandleAnpetqChange()">
+  <img src="https://blog.apastyle.org/.a/6a01157041f4e3970b022ad3929311200d-pi" style="width: 90px;height:60px;"><br><br>
+  </div><br>
+
+<div class="best">
+  <label for="fname">Dimensions</label><br>
+  <input type="text" placeholder="Dimensions" id="Chapser" name="fname" onblur="HandleChapserChange()">
+  <img src="https://indesignskills.com/wp-content/uploads/2018/07/Final-image.jpg" style="width: 100px;height:90px;"><br><br>
+</div><br>
+
+<div class="best">
+  <label for="fname">Publisher*</label><br>
+<input type="text" placeholder="Publisher" id="Tpagrox" name="fname" onblur="HandleTpagroxChange()">
+  <img src="https://image.freepik.com/free-vector/cute-boy-reading-book_70172-488.jpg" style="width: 100px;height:100px;"><br><br>
+</div><br>
+
+<div class="best">
+ <label for="start">Publishing Date:</label><br><br>
+<input type="date" id="Or" name="trip-start"
+   value="2015-07-22"
+   min="2018-01-01" max="2025-12-31" onblur="HandleOrChange()">
+</div><br><br>
+
+<div class="best">
+  <label for="fname">Original Publishing Date*</label><br><br>
+<input type="date" id="IskakanOr" name="trip-start"
+   value="2015-07-22"
+   min="2018-01-01" max="2025-12-31" onblur="HandleIskakanOrChange()">
+</div><br><br>
+
+<div class="best">
+  <label for="fname">Genre*</label><br>
+<input type="text" placeholder="Genre" name="fname" id="Tesak" onblur="HandleTesakChange()">
+  <img src="https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2013/03/thumb_720_450_889.jpg" style="width: 140px;height:90px;"><br><br>
+</div><br>
+
+<div class="best">
+  <label for="fname">Age restriction</label><br>
+<input type="text" placeholder="Age restriction" id="Tariq" name="fname" onblur="HandleTariqChange()">
+  <img src="https://thumbs.dreamstime.com/b/age-restriction-signs-adults-content-icon-limit-set-vector-eps-144066974.jpg" style="width: 140px;height:60px;"><br><br>
+  </div><br>
+
+ 
+
+<button id="Submit" type="button" label style="color:white;background-color: Tomato; width: 100px; height: 40px; border-radius: 10px " onclick="ShowTheData(event)">Submit</button>
+<script src="bestjava.js"></script>
+</form>
+</select><br><br>
+</body>
+</head>
+</html>   
+
+.Mariadiv {
+   background-color:  steelblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px; 
+
+ }
+ 
+ * {
+ color: #4169E1;
+
+ }
+
+h1 {
+ font-family: Roboto; 
+ color: darkblue; 
+
+
+}
+p1 {
+ font-size: 20px; 
+ color: Tomato;
+ margin: 10px;
+}
+input {
+ background-color: #FFFAFA;
+ height: 25px;
+ padding: 10px;
+}
+
+#Maria, #multicolor, #number {
+  width: 80px;
+  height:60px;
+}
+.best {
+ background-color: white;
+ border-radius: 5px;
+ padding: 15px;
+ margin: 10px;
+}
+
+#grel, #coverurish, #bnakan {
+  display: none;
+}
+
+var requiredFields = [ "anun" , "vernagir", "grox", "guyn"
+]
+
+
+var BestBook = {
+  "project": "Books",
+  "owner": "Maria Yeritsyan",
+  "anun": "",
+  "vernagir": "",
+  "grox": "",
+  "guyn": "",
+  "coverurish": "",
+  "EjiQanak": "",
+  "Gin": "",
+  "Pox": "",
+  "bnakan": "",
+  "Anpetq": "",
+  "Chapser": "",
+  "Tpagrox": "",
+  "Or": "",
+  "IskakanOr": "",
+  "Tesak": "",
+  "Tariq": "",
+  "language": "",
+  "grelvalue": "",
+}
+
+
+
+function HandleFullNameChange() {
+  BestBook.anun = document.getElementById("anun").value;
+}
+
+function HandleVernagirChange() {
+  BestBook.vernagir = document.getElementById("vernagir").value;
+}
+
+function HandleGroxChange() {
+  BestBook.grox = document.getElementById("grox").value;
+}
+
+function HandleGuynChange() {
+  BestBook.guyn = document.getElementById("guyn").value;
+}
+
+function HandleVorakChange(e) {
+  BestBook.language = e.target.value;
+  if (BestBook.language != "other") {
+    BestBook.coverurish = "";
+    document.getElementById("coverurish").style.display = "none";
+  }
+  else {
+    document.getElementById("coverurish").style.display = "block";
+  }
+}
+
+function HandleLavVorakChange() {
+  if (BestBook.language == "other") {
+    BestBook.coverurish = document.getElementById("coverurish").value;
+    document.getElementById("coverurish").style.display = "block";
+  }
+}
+
+function HandleEjiQanakChange() {
+  BestBook.EjiQanak = document.getElementById("EjiQanak").value;
+}
+
+function HandleGinChange() {
+  BestBook.Gin = document.getElementById("Gin").value;
+}
+
+function HandlePoxChange() {
+  BestBook.Pox = document.getElementById("Pox").value;
+}
+
+
+function Handlelanguagechange(e) {
+  BestBook.language = e.target.value;
+  if (BestBook.language != "other") {
+    BestBook.grelvalue = "";
+    document.getElementById("grel").style.display = "none";
+  }
+  else {
+    document.getElementById("grel").style.display = "block";
+  }
+}
+
+function Handlegrelchange() {
+  if (BestBook.language == "other") {
+    BestBook.grelvalue = document.getElementById("grel").value;
+    document.getElementById("grel").style.display = "block";
+  }
+}
+
+function HandleIskakanLanguageChange(e) {
+  BestBook.language = e.target.value;
+  if (BestBook.language != "other") {
+    BestBook.language = "";
+    document.getElementById("bnakan").style.display = "none";
+  }
+  else {
+    document.getElementById("bnakan").style.display = "block";
+  }
+}
+
+function HandleIskakanLezuChange() {
+  if (BestBook.language == "other") {
+    BestBook.language = document.getElementById("bnakan").value;
+    document.getElementById("bnakan").style.display = "block";
+  }
+}
+
+function HandleAnpetqChange() {
+  BestBook.Anpetq = document.getElementById("Anpetq").value;
+}
+
+function HandleChapserChange() {
+  BestBook.Chapser = document.getElementById("Chapser").value;
+}
+
+function HandleTpagroxChange() {
+  BestBook.Tpagrox = document.getElementById("Tpagrox").value;
+}
+
+function HandleOrChange() {
+  BestBook.Or = document.getElementById("Or").value;
+}
+
+function HandleIskakanOrChange() {
+  BestBook.IskakanOr = document.getElementById("IskakanOr").value;
+}
+
+function HandleTesakChange() {
+  BestBook.Tesak = document.getElementById("Tesak").value;
+}
+
+function HandleTariqChange() {
+  BestBook.Tariq = document.getElementById("Tariq").value;
+}
+
+function validateFormData() {
+  var isFormValid = true;
+  var keys = Object.keys(BestBook);
+  keys.forEach(key => {
+      if (requiredFields.indexOf(key) > -1 && BestBook[key] == "") { console.log(key, " is a required field, please add a value") 
+      if(document.getElementById(key)) {
+        document.getElementById(key).style.backgroundColor = "red"; 
+        isFormValid = false;
+      }
+    }   
+  })
+  return isFormValid;
+}
+
+function ShowTheData(e) {
+  if(validateFormData() == false) {
+    return;
+  } else {
+console.log(BestBook);
+  }
+}
+
+  $.ajax({
+    type: 'POST',
+    url: "https://cse120-2021-api-maria.herokuapp.com/data",
+    data: BestBook,
+    cache: false,
+    dataType: 'json',
+    success: function (data) {
+      console.log("success");
+    
+    },
+    error: function (xhr) {
+      console.error("Error in post", xhr);
+    },
+    complete: function () {
+      console.log("Complete");
+      
+
+    }
+  });
+
+
+function complete () {
+  console.log("Complete");
+   
+ 
+}
+
+
+function loadExistingData() {
+  var existingData = [];
+  $.ajax({
+    type: "GET",
+    url: "https://cse120-2021-api-maria.herokuapp.com/data",
+    data: BestBook,
+    cache: false,
+    dataType: "json",
+    success: function (data) {
+      console.log("success", data);
+      existingData = data;
+      displayData(existingData.data);
+    },
+    error: function (data) {
+      console.log("Error")
+    }
+  });
+}
+
+
+
+
+
